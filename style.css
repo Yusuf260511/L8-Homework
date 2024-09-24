@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: white;
+    font-family: "Mulish", sans-serif;
+}
+
+.padding {
+    padding: 46px 130px;
+}
+
+nav {
+    width: 100%;
+    height: 41px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 475px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1F1534;
+    opacity: 50%;
+}
+
+.li1 {
+    font-weight: 700;
+    opacity: 100%;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 176px;
+}
+
+header p {
+    margin-top: 26.3px;
+    font-size: 19px;
+    font-weight: 300;
+    color: #7D7987;
+}
+
+.textandimg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textandimg img {
+    width: 609px;
+    height: 466.68px;
+    margin-top: 91px;
+}
+
+.header {
+    margin: 0 auto;
+}
+
+.textandimg button {
+    width: 197.75px;
+    height: 49.12px;
+    border-radius: 55px;
+    border: 0;
+    background-color: #E7E7E7;
+    color: black;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "Mulish", sans-serif;
+    margin-top: 35px;
+}
+
+.textandimg button:hover {
+    background-color: #458FF6;
+    color: white;
+}
+
+.section1 {
+    margin-top: 91.3px;
+    text-align: center;
+}
+
+.section1 h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.p1 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #7D7987;
+    margin-top: 61.8px;
+}
+
+.flexsections section {
+    width: 380px;
+    height: 380px;
+    background-color: #E7E7E7;
+    margin-top: 36.4px;
+    border-radius: 20px;
+    padding: 71px 56.46px 0 39.48px;
+}
+
+.section1 section img {
+    margin-right: 300px;
+}
+
+.section1 section h3 {
+    height: 60.91px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 40px;
+    text-align: start;
+}
+
+section p {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: start;
+    opacity: 60%;
+}
+
+section:hover {
+    background-color: #5A98F2;
+    color: white;
+}
+
+.flexsections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sectionmt {
+    margin-top: 40px;
+}
+
+.section1 button {
+    width: 200px;
+    height: 56.74px;
+    background-color: white;
+    margin-top: 32.23px;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #458FF6;
+    font-family: "Mulish", sans-serif;
+}
+
+.section2 h1 {
+    margin-top: 76.26px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    height: 74px;
+}
+
+.section2-2 {
+    margin-top: 75px;
+    display: flex;
+    gap: 112px;
+}
+
+.section2-2text h2 {
+    width: 434.98px;
+    height: 113.49px;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.section2-2text p {
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 62.82px;
+    color: #7D7987;
+    width: 434.98px;
+    height: 121.59px;
+}
+
+.section2-2text button {
+    width: 200px;
+    height: 56.74px;
+    background-color: white;
+    margin-top: 40.53px;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #458FF6;
+    font-family: "Mulish", sans-serif;
+}
+
+.section3 h1 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 152.85px;
+    text-align: center;
+}
+
+.section3 section {
+    width: 380px;
+    height: 516px;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+}
+
+.section3 section:hover {
+    background-color: white;
+    color: black;
+}
+
+.section3-sections {
+    margin-top: 109.43px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section3-sections h1 {
+    margin-top: 30px;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.section3-sections section div {
+    margin: 30px;
+}
+
+.section3-sections section p {
+    margin-top: 10px;
+    width: 266px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.section3-sections section h6 {
+    color: #4089ED;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 18px;
+    text-align: start;
+}
+
+.readmore {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.readmore img {
+    margin-top: 21px;
+}
+
+.readmore:hover::after {
+    content: "Click to read more";
+    color: #4089ED;
+    margin-top: 20px;
+    font-size: 13px;
+    background-color: rgb(243, 241, 241);
+    border: 1px solid gray;
+}
+
+.img1 {
+    width: 380px;
+    height: 240px;
+}
+
+.viewall {
+    width: 200px;
+    height: 56.74px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    background-color: white;
+    font-weight: 700;
+    font-size: 17px;
+    color: #458FF6;
+    font-family: "Mulish", sans-serif;
+    margin: 43.83px auto;
+}
+
+.buttonva {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    height: 432px;
+    margin-top: 230.26px;
+    background: linear-gradient(#67C3F3, #5A98F2);
+    padding: 159px 200px 131px 220px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trafalaglar p {
+    width: 386px;
+    height: 84px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 17px;
+    opacity: 70%;
+}
+
+.crh h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.crh h2 {
+    font-size: 18px;
+    font-weight: 300;
+    opacity: 70%;
+    margin-top: 20px;
+}
